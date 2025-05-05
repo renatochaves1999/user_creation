@@ -1,11 +1,13 @@
+#librarias
 import getpass
 import json
+#librarias
 
 def criar_utilizador():
     print("=== Criar Novo Utilizador ===")
     nome = input("Insira o nome de utilizador: ")
 
-    # Oculta a password no terminal
+    # Oculta a password no cmd
     password = getpass.getpass("Insira a password: ")
     confirmar_password = getpass.getpass("Confirme a password: ")
 
